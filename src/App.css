@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(240, 240, 240);
   min-width: 700px;
 }
@@ -12,51 +12,55 @@ body{
   margin: auto;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
 }
 
-th, td {
+th,
+td {
   padding: 0 !important;
 }
 
 td div {
-  float:right;
+  float: right;
   padding-right: 10px;
 }
 
-.selectGraphType{
+.selectGraphType {
   margin-top: 30px;
   margin-bottom: 0;
 }
 
-  .graphBox{
-    position: relative;
-    width: 100%;
-    height: 500px;
-    text-align: center;
-  }
+.graphBox {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
 
-  svg {
-    position: absolute;
-    width: 900px;
-    height: 500px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+svg {
+  position: absolute;
+  width: 900px;
+  height: 500px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  .fixed-action-btn .btn-floating.btn-large {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-  }
-  .fixed-action-btn .btn-floating:hover{
-  box-shadow: 0 4px 3px 3px rgba(0,0,0,0.14), 0 2px 7px 0 rgba(0,0,0,0.12), 0 5px 1px -1px rgba(0,0,0,0.2);
+.fixed-action-btn .btn-floating.btn-large {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.fixed-action-btn .btn-floating:hover {
+  box-shadow: 0 4px 3px 3px rgba(0, 0, 0, 0.14), 0 2px 7px 0 rgba(0, 0, 0, 0.12), 0 5px 1px -1px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }
 
-.warningMark{
+.warningMark {
   animation: fadeOut 1s linear;
 }
 
@@ -64,9 +68,11 @@ td div {
   0% {
     background-color: rgba(223, 19, 60, 0);
   }
+
   10% {
     background-color: rgba(223, 19, 60, 1);
   }
+
   100% {
     background-color: rgba(223, 19, 60, 0);
   }
